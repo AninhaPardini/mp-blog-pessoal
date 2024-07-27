@@ -8,6 +8,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
+    
+    },
+    colors: {
       'mandy': {
         '50': '#fef2f3',
         '100': '#fde6e7',
@@ -49,8 +52,7 @@ const config: Config = {
         '900': '#3d3d3d',
         '950': '#292929',
       },
-    
-    },
+    }
   },
   plugins: [],
 };
